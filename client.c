@@ -1,12 +1,10 @@
-/*file:   client.c*/
-
 #include <stdio.h>
 #include <string.h>
 #include <sys/socket.h> //socket
 #include <arpa/inet.h> //inet_addr
 #include <stdlib.h>
 
-/* client */
+//client
 int main(int argc, char** argv) {
 
         int socket_desc;
